@@ -9,13 +9,6 @@
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/tvSupported"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="28dp" android:layout_marginTop="28dp"
-            app:layout_constraintTop_toBottomOf="@+id/tvReleaseDate"/>
-    <TextView
-            android:text="TextView"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/tvReleaseDate"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="28dp" android:layout_marginTop="36dp"
@@ -54,5 +47,11 @@
             app:layout_constraintTop_toBottomOf="@+id/details"
             android:layout_marginTop="36dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="28dp"/>
+    <Switch
+            android:text="Supported"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/swSupported"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/tvReleaseDate"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
