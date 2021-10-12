@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.Switch;
 import android.widget.TextView;
 import androidx.fragment.app.Fragment;
@@ -41,7 +42,7 @@ public class ItemDetailFragment extends Fragment {
         TextView name = view.findViewById(R.id.tvName);
         TextView version = view.findViewById(R.id.tvVersion);
         TextView releaseDate = view.findViewById(R.id.tvReleaseDate);
-        Switch supported = view.findViewById(R.id.swSupported);
+        CheckBox supported = view.findViewById(R.id.cxSupported);
         TextView internalCode = view.findViewById(R.id.tvInternalCode);
         TextView level = view.findViewById(R.id.tvLevel);
 
