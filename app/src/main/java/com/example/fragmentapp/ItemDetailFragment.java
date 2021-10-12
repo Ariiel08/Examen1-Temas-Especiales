@@ -43,6 +43,7 @@ public class ItemDetailFragment extends Fragment {
         TextView releaseDate = view.findViewById(R.id.tvReleaseDate);
         Switch supported = view.findViewById(R.id.swSupported);
         TextView internalCode = view.findViewById(R.id.tvInternalCode);
+        TextView level = view.findViewById(R.id.tvLevel);
 
         details.setText(element.getDetails());
         name.setText("Name: "+element.getName());
@@ -50,6 +51,7 @@ public class ItemDetailFragment extends Fragment {
         internalCode.setText("Internal Code: "+element.getInternalCodeName());
         supported.setChecked(element.isSupported());
         releaseDate.setText("Release date: "+element.getReleaseDate().toString());
+        level.setText("Level: "+element.getLevel());
 
         Button btnLink = view.findViewById(R.id.button);
 
